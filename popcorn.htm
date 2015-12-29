@@ -1,0 +1,326 @@
+<html><head><title>popcorn-engine logfile</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<style>body
+{
+   padding-top: 44px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background: #bbbbbb;
+   margin: 0px;
+   color: #000000;
+   font-family: Consolas, Courier;
+   font-size: 10pt;
+}
+.header2
+{
+   font-size: 80px;
+   left: 5px;
+   color: #408ed9;
+   position: absolute;
+   top: -30px
+}
+.header
+{
+   left: 0px;
+   overflow: hidden;
+   width: 100%;
+   color: #ffffff;
+   font-family: Verdana, Arial;
+   position: absolute;
+   top: 0px;
+   height: 44px;
+   background-color: #1b79d3
+}
+.pagetitle
+{
+   font-size: 22px;
+   z-index: 100;
+   left: 5px;
+   color: #ffffff;
+   position: absolute;
+   top: 14px;
+}
+.copyright
+{
+   font-size: 10px;
+   z-index: 60;
+   left: -8px;
+   width: 100%;
+   color: #68a6e1;
+   position: absolute;
+   top: 1px;
+   text-align: right;
+   text-decoration: none;
+}
+.build
+{
+   font-size: 12px;
+   color: #eeeeee;
+   text-decoration: none;
+}
+a.header1:link
+{
+   font-size: 30px;
+   z-index: 50;
+   left: -8px;
+   width: 100%;
+   color: #5299dd;
+   position: absolute;
+   top: 6px;
+   text-align: right;
+   text-decoration: none;
+}
+a.header1:visited
+{
+   font-size: 30px;
+   z-index: 50;
+   left: -8px;
+   width: 100%;
+   color: #5299dd;
+   position: absolute;
+   top: 6px;
+   text-align: right;
+   text-decoration: none;
+}
+a.header1:hover
+{
+   font-size: 30px;
+   z-index: 50;
+   left: -8px;
+   width: 100%;
+   color: #68a6e1;
+   position: absolute;
+   top: 6px;
+   text-align: right;
+   text-decoration: none;
+}
+.log_caller { color: #666666; }
+.dll { color: #800070; }
+.M   { color: #000000; background-color: #DDDDDD; white-space: pre; }
+.W   { color: #000000; background-color: #FFAA33; white-space: pre; }
+.E   { color: #FFFFFF; background-color: #DD1100; white-space: pre; }
+.EC  { color: #FFFFFF; background-color: #DD0000; white-space: pre; }
+.EI  { color: #FFFFFF; background-color: #EE0000; white-space: pre; }
+.EF  { color: #FFFFFF; background-color: #FF0000; white-space: pre; }
+</style>
+</head>
+<body>
+<div class=header id=header>
+    <a class=header1 id=header1 href="http://www.popcornfx.com/">www.popcornfx.com</a>
+    <div class=copyright id=copyright>Copyright (c) Persistant Studios 2010-2015</div>
+    <div class=header2 id=header2>PopcornFX</div>
+    <div class=pagetitle id=pagetitle>PopcornFX Unity plugin logfile. <font class=build>build 1.8.2.25329, Wed Jun 3 14:58:14 2015 +0200</font></i></div>
+</div><div class=M><center>... STARTUP ...</center></div>
+<div class=M>[BOOT]> License keycode: "DiscoveryPlugin-{169612C6056451B3}"</div>
+<div class=M>[BOOT]> Popcorn runtime build config: .... RELEASE</div>
+<div class=M>[BOOT]> Has debug asserts: .................... NO</div>
+<div class=M>[BOOT]> Has release asserts: ................. YES</div>
+<div class=M>[BOOT]> Has anonymous asserts: ................ NO</div>
+<div class=M>[BOOT]> Has containers monitoring: ............ NO</div>
+<div class=M>[BOOT]> Has iterators debug checks: ........... NO</div>
+<div class=M>[BOOT]> Mem debug level: ....................... 0</div>
+<div class=M>[BOOT]> Has default mem allocators: .......... YES</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_KERNEL ...</div>
+<div class=M>[BOOT]> [KR_CALLSTACK             ]:Startup      8093 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_PERFMONITOR           ]:Startup     29018 usec        80 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_MEM                   ]:Startup         5 usec        72 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_CONTAINERS            ]:Startup        13 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_ASSERT                ]:Startup         1 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_BUFFER                ]:Startup         4 usec         0 bytes      0 KbTotal</div>
+<div class=M>[BOOT]> [KR_STRING                ]:Startup         6 usec      2048 bytes      3 KbTotal</div>
+<div class=M>[BOOT]> [KR_RTTI                  ]:Startup         0 usec         0 bytes      3 KbTotal</div>
+<div class=M>[KR_THREADS]> Windows-7 group affinity functions are available. Thread scheduling will scale to more than 64 processors.</div>
+<div class=M>[BOOT]> [KR_THREADS               ]:Startup       169 usec         0 bytes      3 KbTotal</div>
+<div class=M>[BOOT]> [KR_THREAD_POOL           ]:Startup         0 usec         0 bytes      3 KbTotal</div>
+<div class=M>[KR_CAPS_CPU]> Multi-Core system, Multi-threaded cores</div>
+<div class=M>[KR_CAPS_CPU]>      Logical processors reported by OS : 4</div>
+<div class=M>[KR_CAPS_CPU]>      Visible logical processors        : 4</div>
+<div class=M>[KR_CAPS_CPU]>      Cores                             : 2</div>
+<div class=M>[KR_CAPS_CPU]>      Physical packages                 : 1</div>
+<div class=M>[KR_CAPS_CPU]> ---- Package 0 -------------------------</div>
+<div class=M>[KR_CAPS_CPU]>      Vendor                            : GenuineIntel</div>
+<div class=M>[KR_CAPS_CPU]>      CPU Name                          : "       Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz"</div>
+<div class=M>[KR_CAPS_CPU]>      Frequency                         : 2490.0 MHz (2494.340 measured)</div>
+<div class=M>[KR_CAPS_CPU]>      Architecture                      : 64-bits</div>
+<div class=M>[KR_CAPS_CPU]>      MMX                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE2                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE3                              : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSSE3                             : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE4.1                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      SSE4.2                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      AVX                               : YES</div>
+<div class=M>[KR_CAPS_CPU]>      POPCNT                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      x2APIC                            : YES</div>
+<div class=M>[KR_CAPS_CPU]>      HyperThreading                    : YES</div>
+<div class=M>[KR_CAPS_CPU]>      CPUID Leaves                      : 0000000D-00000008</div>
+<div class=M>[KR_CAPS_CPU]>      CACHE TYPE                  SIZE         ASSOCIATIVITY  LINE-SIZE</div>
+<div class=M>[KR_CAPS_CPU]>         L1 Data cache              32 KB             8 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>         L1 Instruction cache       32 KB             8 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>         L2 Unified cache          256 KB             8 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>         L3 Unified cache         3072 KB            12 ways   64-bytes</div>
+<div class=M>[KR_CAPS_CPU]>      PROCESSOR  APIC_ID  PACKAGE     CORE   THREAD    CACHES</div>
+<div class=M>[KR_CAPS_CPU]>              0     0000        0        0        0    L1D[0] L1I[0] L2[0] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              1     0001        0        0        1    L1D[0] L1I[0] L2[0] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              2     0002        0        1        0    L1D[1] L1I[1] L2[1] L3[0]</div>
+<div class=M>[KR_CAPS_CPU]>              3     0003        0        1        1    L1D[1] L1I[1] L2[1] L3[0]</div>
+<div class=M>[BOOT]> [KR_CAPS_CPU              ]:Startup    204980 usec       928 bytes      4 KbTotal</div>
+<div class=M>[KR_CAPS_MEM]> Detecting memory:</div>
+<div class=M>[KR_CAPS_MEM]>      MEMORY        :          USED     AVAILABLE         TOTAL</div>
+<div class=M>[KR_CAPS_MEM]>      physical      :     3703.0 Mb     8479.0 Mb    12182.0 Mb</div>
+<div class=M>[KR_CAPS_MEM]>      page file     :     3984.0 Mb    20486.0 Mb    24470.0 Mb</div>
+<div class=M>[KR_CAPS_MEM]>      virtual       :     2184.0 Mb 134215544.0 Mb 134217728.0 Mb</div>
+<div class=M>[KR_CAPS_MEM]>      Address range : 00007FFFFFFEFFFF - 0000000000010000</div>
+<div class=M>[BOOT]> [KR_CAPS_MEM              ]:Startup       191 usec        72 bytes      4 KbTotal</div>
+<div class=M>[BOOT]> [KR_PROFILER              ]:Startup        75 usec      3448 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_CHECKSUM              ]:Startup         0 usec         0 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_COMPRESSION           ]:Startup         0 usec         0 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_FILE                  ]:Startup        45 usec         8 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_PLUGINS               ]:Startup         0 usec        56 bytes      7 KbTotal</div>
+<div class=M>[BOOT]> [KR_SCHEDULER             ]:Startup     10822 usec     21432 bytes     28 KbTotal</div>
+<div class=M>[BOOT]> [KR_RESOURCES             ]:Startup         4 usec        80 bytes     29 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING KR_BASE_OBJECT ...</div>
+<div class=M>[BOOT]> [KR_BASE_OBJECT           ]:Startup      2237 usec     17368 bytes     46 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH-EngineUtils ...</div>
+<div class=M>[BOOT]> [KR_RANDOM                ]:Startup        48 usec      5032 bytes     51 KbTotal</div>
+<div class=M>[BOOT]> [KR_TIMELINE              ]:Startup         6 usec         0 bytes     51 KbTotal</div>
+<div class=M>[BOOT]> [KR_ACTIONS               ]:Startup     22047 usec     14928 bytes     65 KbTotal</div>
+<div class=M>[BOOT]> [KR_CORE                  ]:Startup     35593 usec     10676 bytes     76 KbTotal</div>
+<div class=M>[BOOT]> [KR_SAMPLERS              ]:Startup       633 usec      6116 bytes     82 KbTotal</div>
+<div class=M>[BOOT]> [EU_SKELETON              ]:Startup        43 usec      2824 bytes     85 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_COMPILER ...</div>
+<div class=M>[BOOT]> [HH_COMPILER              ]:Startup      1780 usec     15704 bytes    100 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_GEOMETRICS ...</div>
+<div class=M>[BOOT]> [GE_SKELETON              ]:Startup         0 usec         0 bytes    100 KbTotal</div>
+<div class=M>[BOOT]> [GE_MESH                  ]:Startup      1171 usec      6132 bytes    106 KbTotal</div>
+<div class=M>[BOOT]> [GF_MESH_DEFORMERS        ]:Startup       191 usec     39308 bytes    145 KbTotal</div>
+<div class=M>[BOOT]> [GE_MESH_RESOURCE         ]:Startup        20 usec      4512 bytes    149 KbTotal</div>
+<div class=M>[BOOT]> [GE_MESH_KDTREE           ]:Startup         0 usec         0 bytes    149 KbTotal</div>
+<div class=M>[BOOT]> [GE_SHAPES                ]:Startup       664 usec      9376 bytes    158 KbTotal</div>
+<div class=M>[BOOT]> [GE_COLLIDERS             ]:Startup         0 usec         0 bytes    158 KbTotal</div>
+<div class=M>[BOOT]> [GE_BILLBOARDS            ]:Startup         0 usec         0 bytes    158 KbTotal</div>
+<div class=M>[BOOT]> [GE_RECTANGLE_LIST        ]:Startup         9 usec      4248 bytes    163 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_IMAGING ...</div>
+<div class=M>[BOOT]> [IM_IMAGES                ]:Startup       197 usec      4344 bytes    167 KbTotal</div>
+<div class=M>[BOOT]> |</div>
+<div class=M>[BOOT]> | ... BOOTING HH_PARTICLES ...</div>
+<div class=M>[BOOT]> [HH_PARTICLES             ]:Startup    166363 usec    835364 bytes    983 KbTotal</div>
+<div class=M>[BOOT]> [HH-CompilerBackend_CPU_Emulation]:Startup        34 usec      8704 bytes    987 KbTotal</div>
+<div class=M>[KR_PLUGINS]> Registering module "CompilerBackend_CPU_Emulation" to handler "hh_compiler".</div>
+<div class=M>[KR_PLUGINS]> Registering module "PopcornFX-Image codec dds" to handler "im_codec".</div>
+<div class=M>[KR_PLUGINS]> Registering module "PopcornFX-Image codec png" to handler "im_codec".</div>
+<div class=M>[KR_PLUGINS]> Registering module "PopcornFX-Image codec targa" to handler "im_codec".</div>
+<div class=M>[???]> Startup PKFX</div>
+<div class=M>[???]> Added G:/Game Projects/Zombies_Keep_Out/Assets/StreamingAssets/PackFx for watching.</div>
+<div class=M>[???]> Exploring pack G:/Game Projects/Zombies_Keep_Out/Assets/StreamingAssets/PackFx...</div>
+<div class=M>[???]>   -> Particles/ButterFly_sceneIntersect.pkfx : ButterFly_sceneIntersect</div>
+<div class=M>[???]>   -> Particles/CampFire_Events.pkfx : CampFire_Events</div>
+<div class=M>[???]>   -> Particles/CarHud_TextSampler.pkfx : CarHud_TextSampler</div>
+<div class=M>[???]>   -> Particles/CoallBurn_SpatialLayers.pkfx : CoallBurn_SpatialLayers</div>
+<div class=M>[???]>   -> Particles/ElectricalBall_pCoords.pkfx : ElectricalBall_pCoords</div>
+<div class=M>[???]>   -> Particles/Explosion_vrandFunction.pkfx : Explosion_vrandFunction</div>
+<div class=M>[???]>   -> Particles/FireFly_Attractor.pkfx : FireFly_Attractor</div>
+<div class=M>[???]>   -> Particles/Fish_Flocking.pkfx : Fish_Flocking</div>
+<div class=M>[???]>   -> Particles/FlameThrower_Ribbon.pkfx : FlameThrower_Ribbon</div>
+<div class=M>[???]>   -> Particles/Grenade_MeshRenderer.pkfx : Grenade_MeshRenderer</div>
+<div class=M>[???]>   -> Particles/Lightning_FpsConstraint.pkfx : Lightning_FpsConstraint</div>
+<div class=M>[???]>   -> Particles/Link_lerpFunction.pkfx : Link_lerpFunction</div>
+<div class=M>[???]>   -> Particles/MagicSpell_Dynamic.pkfx : MagicSpell_Dynamic</div>
+<div class=M>[???]>   -> Particles/MagicSpell_Static.pkfx : MagicSpell_Static</div>
+<div class=M>[???]>   -> Particles/Orb_rotateFunction.pkfx : Orb_rotateFunction</div>
+<div class=M>[???]>   -> Particles/Pentacle_AnimTrack.pkfx : Pentacle_AnimTrack</div>
+<div class=M>[???]>   -> Particles/Rain_ViewPosition.pkfx : Rain_ViewPosition</div>
+<div class=M>[???]>   -> Particles/Snow_TurbSampler.pkfx : Snow_TurbSampler</div>
+<div class=M>[???]>   -> Particles/Soul_parentFunction.pkfx : Soul_parentFunction</div>
+<div class=M>[???]>   -> Particles/Spark_ExternEvents.pkfx : Spark_ExternEvents</div>
+<div class=M>[???]>   -> Particles/Spark_Triggered.pkfx : Spark_Triggered</div>
+<div class=M>[???]>   -> Particles/WorldMap_TextureSampler.pkfx : WorldMap_TextureSampler</div>
+<div class=M>[???]> ##### PDF 2D BUILD ################</div>
+<div class=M>[???]> ## size              : 1024 x 512</div>
+<div class=M>[???]> ## min treshold      : 0.000e+000</div>
+<div class=M>[???]> ## remap discrepancy : 1.000e+000</div>
+<div class=M>[???]> ##### 37.578 ms ######################</div>
+<div class=M>[GE_MESH_RESOURCE]> Loading Mesh "G:/Game Projects/Zombies_Keep_Out/Assets/StreamingAssets/PackFx/Meshes/SceneButterflies.pkmm"</div>
+<div class=M>[GE_MESH_RESOURCE]> read KdTree chunk: leaves=24.8 Kb (50.0 %), nodes=141.9 Kb, total=166.8 Kb (expanded=191.6 Kb)</div>
+<div class=W>[???]> [MeshBuilder::LoadPkmm] "Meshes/SceneButterflies.pkmm" OK (primitives count: 336)</div>
+<div class=M>[???]> Preloading OK "Particles/Spark_ExternEvents.pkfx"</div>
+<div class=M>[???]> Preloading OK "Particles/CoallBurn_SpatialLayers.pkfx"</div>
+<div class=M>[???]> Preloading OK "Particles/FlameThrower_Ribbon.pkfx"</div>
+<div class=M>[???]> Preloading OK "Particles/Soul_parentFunction.pkfx"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Spark_03.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Smoke_02.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Spark_01.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Glow_01.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Coal_01.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\SymmetricGradient_02.png"</div>
+<div class=M>[???]> Growing Ribbons 00000000397ECBF8 buffers from maxverts=0, maxind=0 to maxvert=320, maxind=416 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Fire_01.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Smoke_03.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Branch_01.png"</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=0, maxind=0 to maxvert=320, maxind=416 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Smoke_02.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Glow_01.png"</div>
+<div class=M>[???]> Loading Texture "Textures\Fx\Distortion_01.png"</div>
+<div class=M>[???]> Growing FxMesh 000000003983C0B8 buffers from maxverts=0, maxind=0 to maxvert=17528, maxind=26228 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000004925C8F8 buffers from maxverts=0, maxind=0 to maxvert=140, maxind=146 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=0, maxind=0 to maxvert=1454, maxind=2117 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=0, maxind=0 to maxvert=332, maxind=434 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=0, maxind=0 to maxvert=1454, maxind=2117 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000004925DC58 buffers from maxverts=0, maxind=0 to maxvert=146, maxind=155 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000004925D2A8 buffers from maxverts=0, maxind=0 to maxvert=140, maxind=146 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=320, maxind=416 to maxvert=590, maxind=821 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=1454, maxind=2117 to maxvert=2888, maxind=4268 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=332, maxind=434 to maxvert=572, maxind=794 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983CC58 buffers from maxverts=0, maxind=0 to maxvert=164, maxind=182 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=1454, maxind=2117 to maxvert=2882, maxind=4259 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=590, maxind=821 to maxvert=1106, maxind=1595 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=2888, maxind=4268 to maxvert=4454, maxind=6617 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=2882, maxind=4259 to maxvert=4388, maxind=6518 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=572, maxind=794 to maxvert=962, maxind=1379 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=1106, maxind=1595 to maxvert=1754, maxind=2567 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983CC58 buffers from maxverts=164, maxind=182 to maxvert=386, maxind=515 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=4454, maxind=6617 to maxvert=6980, maxind=10406 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=962, maxind=1379 to maxvert=1520, maxind=2216 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=4388, maxind=6518 to maxvert=6998, maxind=10433 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=1520, maxind=2216 to maxvert=2366, maxind=3485 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=2366, maxind=3485 to maxvert=3656, maxind=5420 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=6998, maxind=10433 to maxvert=10628, maxind=15878 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=6980, maxind=10406 to maxvert=10892, maxind=16274 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Added G:/Game Projects/Zombies_Keep_Out/Assets/StreamingAssets/PackFx for watching.</div>
+<div class=W>[???]> Pack "G:/Game Projects/Zombies_Keep_Out/Assets/StreamingAssets/PackFx" already loaded.</div>
+<div class=M>[GE_MESH_RESOURCE]> Loading Mesh "G:/Game Projects/Zombies_Keep_Out/Assets/StreamingAssets/PackFx/Meshes/SceneButterflies.pkmm"</div>
+<div class=M>[GE_MESH_RESOURCE]> read KdTree chunk: leaves=24.8 Kb (50.0 %), nodes=141.9 Kb, total=166.8 Kb (expanded=191.6 Kb)</div>
+<div class=W>[???]> [MeshBuilder::LoadPkmm] "Meshes/SceneButterflies.pkmm" OK (primitives count: 336)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C0B8 buffers from maxverts=0, maxind=0 to maxvert=17528, maxind=26228 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000004925C8F8 buffers from maxverts=0, maxind=0 to maxvert=140, maxind=146 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=0, maxind=0 to maxvert=1454, maxind=2117 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=0, maxind=0 to maxvert=332, maxind=434 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=0, maxind=0 to maxvert=1454, maxind=2117 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=0, maxind=0 to maxvert=320, maxind=416 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000004925DC58 buffers from maxverts=0, maxind=0 to maxvert=146, maxind=155 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000004925D2A8 buffers from maxverts=0, maxind=0 to maxvert=140, maxind=146 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=320, maxind=416 to maxvert=560, maxind=776 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=1454, maxind=2117 to maxvert=2618, maxind=3863 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983CC58 buffers from maxverts=0, maxind=0 to maxvert=152, maxind=164 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=1454, maxind=2117 to maxvert=2612, maxind=3854 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=332, maxind=434 to maxvert=620, maxind=866 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=560, maxind=776 to maxvert=1010, maxind=1451 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=2618, maxind=3863 to maxvert=4052, maxind=6014 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=2612, maxind=3854 to maxvert=3992, maxind=5924 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing Ribbons 00000000397EE3F8 buffers from maxverts=1010, maxind=1451 to maxvert=1748, maxind=2558 (IFORMAT=D3DFMT_INDEX32) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=620, maxind=866 to maxvert=1082, maxind=1559 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983CC58 buffers from maxverts=152, maxind=164 to maxvert=308, maxind=398 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=4052, maxind=6014 to maxvert=6596, maxind=9830 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=3992, maxind=5924 to maxvert=6596, maxind=9830 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=1082, maxind=1559 to maxvert=1844, maxind=2702 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=1844, maxind=2702 to maxvert=2840, maxind=4196 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983BAE8 buffers from maxverts=6596, maxind=9830 to maxvert=10064, maxind=15032 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983B328 buffers from maxverts=6596, maxind=9830 to maxvert=10046, maxind=15005 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
+<div class=M>[???]> Growing FxMesh 000000003983C2A8 buffers from maxverts=2840, maxind=4196 to maxvert=4448, maxind=6608 (IFORMAT=DXGI_FORMAT_R16_UINT) (COLORS=FLOAT4)</div>
